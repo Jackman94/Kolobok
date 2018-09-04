@@ -1,0 +1,184 @@
+#text_filed{
+	position: fixed;
+	width: 300px;
+	height: 200px;
+	top: 400px;
+	background-color: green;
+	text-align: center;
+	padding: 15px;
+	border: solid firebrick;
+	color: #fff;
+}
+
+.button1{
+	position: absolute;
+	top: 495px;
+	left: 885px;
+}
+.button2{
+	position: absolute;
+	top: 500px;
+	left: 1350px;
+}
+.button3{
+	position: absolute;
+	top: 180px;
+	left: 620px;
+}
+.button4{
+	position: absolute;
+	top: 310px;
+	left: 210px;
+}
+
+
+.imgLes{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 1300px;
+	top: 400px;
+	z-index: -1;
+}
+
+.imgTerem{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	left: 560px;
+	top: 260px;
+}
+
+.imgDed{
+	width: 240px;
+	height: 140px;
+	position: absolute;
+	left: 55px;
+	top: 260px;
+}
+.imgSaray{
+	width:240px;
+	height:200px;
+	position: absolute;
+	left: 830px;
+	top:280px;
+}
+.okno{
+	width: 800px;
+	height:400px;
+	background-image: url(полка.jpg);
+	position:absolute;
+	top:150px;
+	left:300px;
+	border: solid 1px green; 
+    display:flex;
+    flex-wrap:wrap;
+
+    //visibility: hidden;
+	
+}
+.button5{
+    position:absolute;
+    top:0px;
+    right:0px;
+    color:red;
+    border-radius:10px;
+	
+}
+.puschka{
+	width:266px;
+	height:100px;
+	background-color: rgba(0,0,0,0.5);
+	}	
+.mini {
+	width:180px;
+	height:80px;
+}
+.mini:hover{
+	width:190px;
+	height:90px;
+}
+.live {
+	width:60px;
+	height:30px;
+	border:2px solid black;
+	float:left;
+	background-color: rgba(0,0,0,0.5);
+}
+.krest {
+    float:left;
+	width:30px;
+	height:30px;
+}
+.krest1 {
+    color:red;
+     float:left;
+    width: 30px;
+    height: 30px;
+}
+.stamina {
+    color:red;
+	width:60px;
+	height:30px;
+	border:2px solid black;
+	float:left;
+	background-color: rgba(0,0,0,0.5);
+}
+.stamina1{
+	width:30px;
+	height:30px;
+}
+.damge {
+	width:60px;
+	height:30px;
+	border:2px solid black;
+	float:left;
+	background-color: rgba(0,0,0,0.5);
+}
+.damge1{
+	width:30px;
+	height:30px;
+}
+.many{
+	width:60px;
+	height:30px;
+	border:2px solid black;
+	float:left;
+	background-color: rgba(0,0,0,0.5);
+}
+.many1{
+	width:30px;
+	height:30px;
+}
+.live:hover{
+	border:2px solid red;
+}
+.stamina:hover{
+	border:2px solid red;
+}
+.damge:hover{
+	border:2px solid red;
+}
+.many:hover{
+	border:2px solid red;
+}
+.arena{
+	width:1000px;
+	height:560px;
+	background-image: url(temniy_les.JPG);
+	position:absolute;
+	top:130px;
+	left:280px;
+	border: solid 1px green; 
+	display:none;
+}
+
+.button6 {
+	background-color:red;
+	float:right;
+	
+}
+body{
+	background: url(les.png);
+	background-size: cover;
+}
